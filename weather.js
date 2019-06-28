@@ -47,13 +47,13 @@ async function run() {
   console.log(diffTemp);
 
   if (diffTemp < 0) {
-    var tempMsg = "The temperature in " + temperatures[0].name + " is " + temp1 + ".";
+    var tempMsg = "The temperature in " + temperatures[0].name + " is " + temp1 + "°C.";
     var diffMsg = " It is " + diffTemp + " degrees colder in " + temperatures[1].name + " than in " + temperatures[0].name + " :("
   } else if (diffTemp == 0) {
-    var tempMsg = "The temperature in " + temperatures[0].name + " is " + temp1 + ".";
+    var tempMsg = "The temperature in " + temperatures[0].name + " is " + temp1 + "°C.";
     var diffMsg = "It is the same temperature as in Bacup!"
   } else {
-    var tempMsg =  "The temperature in " + temperatures[0].name + " is " + temp1 + ".";
+    var tempMsg =  "The temperature in " + temperatures[0].name + " is " + temp1 + "°C.";
     var diffMsg = " It is " + diffTemp + " degrees warmer in " + temperatures[1].name + " than in " + temperatures[0].name + " :)"
   }
 
