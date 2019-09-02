@@ -48,7 +48,7 @@ async function run() {
 
   if (diffTemp < 0) {
     var tempMsg = "The temperature in " + temperatures[0].name + " is " + temp1 + "°C.";
-    var diffMsg = " It is " + diffTemp + " degrees colder in " + temperatures[1].name + " than in " + temperatures[0].name + " :("
+    var diffMsg = " It is " + (-diffTemp) + " degrees colder in " + temperatures[1].name + " than in " + temperatures[0].name + " :("
   } else if (diffTemp == 0) {
     var tempMsg = "The temperature in " + temperatures[0].name + " is " + temp1 + "°C.";
     var diffMsg = "It is the same temperature as in Bacup!"
