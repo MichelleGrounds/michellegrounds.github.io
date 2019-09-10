@@ -27,22 +27,13 @@ async function getWeather(cityID) {
 
 async function run() {
   await getWeather(2953317);
-  //console.log(temperatures);
-  //getWeather(2656666);
 
   await getWeather(2656666);
-
-  console.log(temperatures);
-
-  console.log(temperatures[0].temp);
 
   var diffTemp = temperatures[1].temp - temperatures [0].temp
   diffTemp = diffTemp.toFixed(1);
   var temp1 = temperatures[0].temp.toFixed(1);
   var temp2 = temperatures[1].temp.toFixed(1);
-
-
-  console.log(diffTemp);
 
   if (diffTemp < 0) {
     var tempMsg = "The temperature in " + temperatures[0].name + " is " + temp1 + "°C.";
