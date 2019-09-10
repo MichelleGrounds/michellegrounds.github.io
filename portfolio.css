@@ -4,6 +4,12 @@
   --main-red: hsl(48, 95%, 31%);
   --main-blue: #0a5049;
   --main-gray: #303841;
+  --border-animate-background-color: none;
+  --border-animate-border-color-on-hover: hsl(48, 95%, 31%);
+  --border-animate-text-color-before-hover: #f0f0f0;
+  --border-animate-text-color-on-hover: hsl(48, 95%, 31%);
+  --border-animate-transition-duration-0-25: 0.25s;
+  --border-animate-transition-delay: 0.25s;
 }
 
 /* Base reset */
