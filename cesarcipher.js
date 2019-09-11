@@ -3,13 +3,13 @@ function decodeCipher(str) {
   var alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ'
   var alphabetArray = alphabet.split("")
   var cipherArray = []
-  var stringAsArray = str.toUpperCase().split("")
+  var stringAsArray = str.split("")
 
   for (var i = 0; i < stringAsArray.length; i++) {
     var alphabetMatch = alphabetArray.findIndex(function(match){
-      return match == stringAsArray[i]
+      return match === stringAsArray[i]
     });
-    alphabetMatch == -1
+    alphabetMatch === -1
       ? cipherArray.push(stringAsArray[i])
       : cipherArray.push(alphabetArray[alphabetMatch+13])
   };
