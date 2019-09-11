@@ -1,0 +1,4 @@
+% git config --submodule.Cesar-Cipher.michellegrounds.github.io/Cesar-Cipher
+% git config --submodule.Weather-Comparison-App.michellegrounds.github.io/Weather-Comparison-App
+% git config --submodule.whats-in-my-freezer.michellegrounds.github.io/whats-in-my-freezer
+% git config --submodule.Rock-Paper-Scissors-Game.michellegrounds.github.io/Rock-Paper-Scissors-Game
