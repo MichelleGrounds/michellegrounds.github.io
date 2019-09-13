@@ -1,0 +1,3 @@
+[submodule "Weather-Comparison-App"]
+	path = Weather-Comparison-App
+	url = https://github.com/MichelleGrounds/Weather-Comparison-App
