@@ -1,0 +1,57 @@
+<html>
+
+<head>
+    <script src="./freezer.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.1/css/font-awesome.min.css" media="all" rel="stylesheet" type="text/css">
+</head>
+
+<style>
+  h1 {
+    text-align: center;
+  }
+
+  li {
+    list-style-type: circle;
+  }
+
+  .list {
+    text-align: center;
+    background-color: rgb(173, 216, 230);
+    padding: 15px;
+    margin: 0px 25px 0px 25px;
+    font-size: 18;
+  }
+
+  form {
+    text-align: center;
+    padding: 15px;
+  }
+
+  .freezerRow {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr 1fr;
+    gap: 1rem;
+    margin: 0 40%
+  }
+
+  .freezerButton {
+    cursor: pointer;
+  }
+  .freezerButton:hover {
+    background-color: rgba(85, 85, 85, 0.27);
+  }
+</style>
+
+<body>
+  <h1> Freezer contents</h1>
+  <form action="#" onsubmit="generateFreezer()">
+    <input id="item_input" type="text" placeholder="add item to freezer">
+    <button type="submit">add</button>
+  </form>
+
+  <div class="list">
+    <div id="freezer"></div>
+  </div>
+
+</body>
